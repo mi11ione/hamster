@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3333736F297B004200787C5E /* FoxbinRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333736E297B004200787C5E /* FoxbinRepository.swift */; };
+		33337371297B01F500787C5E /* FoxbinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33337370297B01F500787C5E /* FoxbinView.swift */; };
+		33337373297B023C00787C5E /* Foxbin-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33337372297B023C00787C5E /* Foxbin-ViewModel.swift */; };
+		335DB7C0297AF5D300794C57 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335DB7BF297AF5D300794C57 /* CoolTextView.swift */; };
+		338C74D929717B4600E70A0B /* hamster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C74D829717B4600E70A0B /* hamster.swift */; };
+		338C74DB29717B4600E70A0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C74DA29717B4600E70A0B /* ContentView.swift */; };
+		338C74DD29717B4700E70A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338C74DC29717B4700E70A0B /* Assets.xcassets */; };
+		338C74E029717B4700E70A0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338C74DF29717B4700E70A0B /* Preview Assets.xcassets */; };
+		33A9B27B297944C800B7464C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9B27A297944C800B7464C /* BaseViewModel.swift */; };
+		33A9B281297947D100B7464C /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9B280297947D100B7464C /* BaseRepository.swift */; };
+		33A9B28429794B0900B7464C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9B28329794B0900B7464C /* Weather.swift */; };
+		33B941DB2977CCAE00174B1C /* WeatherRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B941DA2977CCAE00174B1C /* WeatherRepository.swift */; };
+		33B941E32977FA5500174B1C /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B941E22977FA5500174B1C /* Content-ViewModel.swift */; };
+		33C9C979297AC5E80016A7D3 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C9C978297AC5E80016A7D3 /* City.swift */; };
+		33C9C97B297AC6B50016A7D3 /* CitiesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C9C97A297AC6B50016A7D3 /* CitiesRepository.swift */; };
+		33C9C97D297AC85F0016A7D3 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C9C97C297AC85F0016A7D3 /* CityView.swift */; };
+		33C9C97F297AC9310016A7D3 /* City-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C9C97E297AC9310016A7D3 /* City-ViewModel.swift */; };
+		33ECB555297C41D20082140B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 33ECB554297C41D20082140B /* Realm */; };
+		33ECB557297C41D20082140B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 33ECB556297C41D20082140B /* RealmSwift */; };
+		33ECB559297C41F10082140B /* Homyak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB558297C41F10082140B /* Homyak.swift */; };
+		33ECB55B297C42CF0082140B /* HomyakFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB55A297C42CF0082140B /* HomyakFormView.swift */; };
+		33ECB55D297C506A0082140B /* CoolText-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB55C297C506A0082140B /* CoolText-ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3333736E297B004200787C5E /* FoxbinRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxbinRepository.swift; sourceTree = "<group>"; };
+		33337370297B01F500787C5E /* FoxbinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxbinView.swift; sourceTree = "<group>"; };
+		33337372297B023C00787C5E /* Foxbin-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foxbin-ViewModel.swift"; sourceTree = "<group>"; };
+		335DB7BF297AF5D300794C57 /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
+		335DB7C3297AF97C00794C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		338C74D529717B4600E70A0B /* hamster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hamster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		338C74D829717B4600E70A0B /* hamster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamster.swift; sourceTree = "<group>"; };
+		338C74DA29717B4600E70A0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		338C74DC29717B4700E70A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		338C74DF29717B4700E70A0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33A9B27A297944C800B7464C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		33A9B280297947D100B7464C /* BaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
+		33A9B28329794B0900B7464C /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		33B941DA2977CCAE00174B1C /* WeatherRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRepository.swift; sourceTree = "<group>"; };
+		33B941E22977FA5500174B1C /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
+		33C9C978297AC5E80016A7D3 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		33C9C97A297AC6B50016A7D3 /* CitiesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesRepository.swift; sourceTree = "<group>"; };
+		33C9C97C297AC85F0016A7D3 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		33C9C97E297AC9310016A7D3 /* City-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "City-ViewModel.swift"; sourceTree = "<group>"; };
+		33ECB558297C41F10082140B /* Homyak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homyak.swift; sourceTree = "<group>"; };
+		33ECB55A297C42CF0082140B /* HomyakFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomyakFormView.swift; sourceTree = "<group>"; };
+		33ECB55C297C506A0082140B /* CoolText-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoolText-ViewModel.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		338C74D229717B4600E70A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECB557297C41D20082140B /* RealmSwift in Frameworks */,
+				33ECB555297C41D20082140B /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		338C74CC29717B4600E70A0B = {
+			isa = PBXGroup;
+			children = (
+				33B941E02977D78B00174B1C /* Packages */,
+				338C74D729717B4600E70A0B /* hamster */,
+				338C74D629717B4600E70A0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		338C74D629717B4600E70A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				338C74D529717B4600E70A0B /* hamster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		338C74D729717B4600E70A0B /* hamster */ = {
+			isa = PBXGroup;
+			children = (
+				335DB7C3297AF97C00794C57 /* Info.plist */,
+				33A9B28229794B0000B7464C /* model */,
+				33A9B278297944B300B7464C /* viewmodel */,
+				33A9B277297944A200B7464C /* repository */,
+				33A9B2762979448200B7464C /* view */,
+				338C74D829717B4600E70A0B /* hamster.swift */,
+				338C74DC29717B4700E70A0B /* Assets.xcassets */,
+				338C74DE29717B4700E70A0B /* Preview Content */,
+			);
+			path = hamster;
+			sourceTree = "<group>";
+		};
+		338C74DE29717B4700E70A0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				338C74DF29717B4700E70A0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33A9B2762979448200B7464C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				338C74DA29717B4600E70A0B /* ContentView.swift */,
+				33C9C97C297AC85F0016A7D3 /* CityView.swift */,
+				335DB7BF297AF5D300794C57 /* CoolTextView.swift */,
+				33337370297B01F500787C5E /* FoxbinView.swift */,
+				33ECB55A297C42CF0082140B /* HomyakFormView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		33A9B277297944A200B7464C /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				33A9B27F297947C300B7464C /* base */,
+				33B941DA2977CCAE00174B1C /* WeatherRepository.swift */,
+				33C9C97A297AC6B50016A7D3 /* CitiesRepository.swift */,
+				3333736E297B004200787C5E /* FoxbinRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		33A9B278297944B300B7464C /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				33A9B279297944BA00B7464C /* base */,
+				33B941E22977FA5500174B1C /* Content-ViewModel.swift */,
+				33C9C97E297AC9310016A7D3 /* City-ViewModel.swift */,
+				33337372297B023C00787C5E /* Foxbin-ViewModel.swift */,
+				33ECB55C297C506A0082140B /* CoolText-ViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		33A9B279297944BA00B7464C /* base */ = {
+			isa = PBXGroup;
+			children = (
+				33A9B27A297944C800B7464C /* BaseViewModel.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		33A9B27F297947C300B7464C /* base */ = {
+			isa = PBXGroup;
+			children = (
+				33A9B280297947D100B7464C /* BaseRepository.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		33A9B28229794B0000B7464C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				33A9B28329794B0900B7464C /* Weather.swift */,
+				33C9C978297AC5E80016A7D3 /* City.swift */,
+				33ECB558297C41F10082140B /* Homyak.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		33B941E02977D78B00174B1C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		338C74D429717B4600E70A0B /* hamster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338C74E329717B4700E70A0B /* Build configuration list for PBXNativeTarget "hamster" */;
+			buildPhases = (
+				338C74D129717B4600E70A0B /* Sources */,
+				338C74D229717B4600E70A0B /* Frameworks */,
+				338C74D329717B4600E70A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hamster;
+			packageProductDependencies = (
+				33ECB554297C41D20082140B /* Realm */,
+				33ECB556297C41D20082140B /* RealmSwift */,
+			);
+			productName = jijdfisdufhdisufhuisdhfkuas;
+			productReference = 338C74D529717B4600E70A0B /* hamster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		338C74CD29717B4600E70A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					338C74D429717B4600E70A0B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 338C74D029717B4600E70A0B /* Build configuration list for PBXProject "hamster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 338C74CC29717B4600E70A0B;
+			packageReferences = (
+				33ECB553297C41D20082140B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 338C74D629717B4600E70A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				338C74D429717B4600E70A0B /* hamster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		338C74D329717B4600E70A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338C74E029717B4700E70A0B /* Preview Assets.xcassets in Resources */,
+				338C74DD29717B4700E70A0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		338C74D129717B4600E70A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECB559297C41F10082140B /* Homyak.swift in Sources */,
+				33B941DB2977CCAE00174B1C /* WeatherRepository.swift in Sources */,
+				33C9C97D297AC85F0016A7D3 /* CityView.swift in Sources */,
+				33337371297B01F500787C5E /* FoxbinView.swift in Sources */,
+				33A9B281297947D100B7464C /* BaseRepository.swift in Sources */,
+				33C9C97B297AC6B50016A7D3 /* CitiesRepository.swift in Sources */,
+				33A9B27B297944C800B7464C /* BaseViewModel.swift in Sources */,
+				33ECB55B297C42CF0082140B /* HomyakFormView.swift in Sources */,
+				33ECB55D297C506A0082140B /* CoolText-ViewModel.swift in Sources */,
+				338C74DB29717B4600E70A0B /* ContentView.swift in Sources */,
+				335DB7C0297AF5D300794C57 /* CoolTextView.swift in Sources */,
+				3333736F297B004200787C5E /* FoxbinRepository.swift in Sources */,
+				33B941E32977FA5500174B1C /* Content-ViewModel.swift in Sources */,
+				33337373297B023C00787C5E /* Foxbin-ViewModel.swift in Sources */,
+				338C74D929717B4600E70A0B /* hamster.swift in Sources */,
+				33C9C979297AC5E80016A7D3 /* City.swift in Sources */,
+				33A9B28429794B0900B7464C /* Weather.swift in Sources */,
+				33C9C97F297AC9310016A7D3 /* City-ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		338C74E129717B4700E70A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		338C74E229717B4700E70A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		338C74E429717B4700E70A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hamster/Preview Content\"";
+				DEVELOPMENT_TEAM = 5RT5P9DA35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hamster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = hamster;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SCAT.567.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		338C74E529717B4700E70A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hamster/Preview Content\"";
+				DEVELOPMENT_TEAM = 5RT5P9DA35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hamster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = hamster;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SCAT.567.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		338C74D029717B4600E70A0B /* Build configuration list for PBXProject "hamster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338C74E129717B4700E70A0B /* Debug */,
+				338C74E229717B4700E70A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		338C74E329717B4700E70A0B /* Build configuration list for PBXNativeTarget "hamster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338C74E429717B4700E70A0B /* Debug */,
+				338C74E529717B4700E70A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		33ECB553297C41D20082140B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33ECB554297C41D20082140B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33ECB553297C41D20082140B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		33ECB556297C41D20082140B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33ECB553297C41D20082140B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 338C74CD29717B4600E70A0B /* Project object */;
+}
