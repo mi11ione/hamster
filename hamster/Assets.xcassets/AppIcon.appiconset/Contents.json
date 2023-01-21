@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "tinywow_F54103D5-0E90-4092-BD03-9E6357BFF213_12014075.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
